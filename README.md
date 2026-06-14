@@ -1,4 +1,4 @@
-# SICPA Inventory Manager
+# Inventory Manager
 
 A full-stack system for tracking which items are stored in which warehouse locations.
 Each item belongs to exactly one location at a time and can be moved between locations.
@@ -178,7 +178,7 @@ curl -X POST http://localhost:8080/api/item \
 | `size` | integer | No | `20`    | Number of items per page |
 
 ```bash
-# Minimal — uses default page=0, size=10
+# Minimal — uses default page=0, size=20
 curl "http://localhost:8080/api/locations/Warehouse-A/items"
 
 # With explicit pagination
